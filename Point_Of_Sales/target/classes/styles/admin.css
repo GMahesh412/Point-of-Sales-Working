@@ -1,0 +1,131 @@
+
+.search-field {
+   /* -fx-background-color: rgba(23, 169, 168, 1);*/
+    -fx-background-color: rgba(119, 195, 236, 1);
+    -fx-text-fill: rgba(0, 0, 0, 1);
+
+    -fx-background-image: url('../images/search.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-font-size: 18px;
+    -fx-background-size: 12%;
+}
+
+.hbox-top-background {
+    -fx-background-color: rgba(255, 140, 0, 1);
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.-background {
+    -fx-background-color: rgba(119, 195, 236, 1);
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-color: rgba(119, 195, 236, 1);
+
+}
+
+.hbox-title {
+    -fx-text-fill: rgba(51, 51, 51, .8);
+    -fx-font-size: 15px;
+    -fx-font-family: cursive;
+}
+
+.control-background {
+    -fx-background-color: rgba(119, 195, 236, 1);
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1px 0;
+     -fx-background-color: rgba(119, 195, 236, 1);
+}
+
+.hamburger-button {
+    -fx-background-image: url("../images/menu.png");
+        -fx-background-color: rgba(119, 195, 236, 1);
+
+}
+.open-menu {
+    -fx-background-image: url("../images/arrow.png");
+    -fx-background-color: rgba(119, 195, 236, 1);
+
+}
+
+.logout-button {
+    -fx-background-image: url("../images/logout.png");
+/*    -fx-background-position: center right;*/
+}
+
+.hamburger-button, .logout-button, .open-menu  {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 80%;
+    -fx-background-position: center;
+    -fx-background-color:  rgba(70, 130, 180, .2);
+}
+
+.hamburger-button:hover, .logout-button:hover, .open-menu:hover, .search-field:hover {
+   -fx-background-color:  rgba(70, 130, 180, 1);
+}
+
+.sidebar-menu {
+    -fx-background-color: rgba(51, 50, 68, 1);
+}
+
+.menu-buttons {
+
+    -fx-text-fill: rgba(93, 93, 119, 1);
+    -fx-font-size: 16px;
+    -fx-background-color: rgba(51, 50, 68, 1);
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 0 5px;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-alignment: center-left;
+}
+
+.menu-buttons:hover {
+
+    -fx-text-fill: rgba(156, 156, 168, 1);
+    -fx-background-color: rgba(44, 43, 61, 1);
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 0 5px;
+    -fx-border-color: transparent transparent transparent rgba(29, 114, 107, 1);
+}
+
+.menu-buttons-selected {
+
+    -fx-text-fill: rgba(156, 156, 168, 1);
+    -fx-background-color: rgba(44, 43, 61, 1);
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 0 5px;
+    -fx-border-color: transparent transparent transparent rgba(29, 114, 107, 1);
+}
+
+.pane-user {
+
+    -fx-border-color: rgba(72, 78, 72, .5);
+    -fx-border-style: solid;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.pane-user-text {
+
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+}
+
+.pane-user-pic {
+
+    -fx-background-radius: 5em;
+}
+
+.vbox-panel {
+
+    -fx-background-color: rgba(238, 238, 238, 1);
+}
+
+.hbox-header {
+    -fx-background-color: rgba(250, 250, 250, 1);
+}

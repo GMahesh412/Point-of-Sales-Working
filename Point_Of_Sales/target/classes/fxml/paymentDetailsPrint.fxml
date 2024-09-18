@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.glyphfont.FontAwesome.Glyph?>
+<VBox alignment="CENTER" spacing="10" stylesheets="@../styles/printButton.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="500.0" prefWidth="380.0">
+    <VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="450.0" VBox.vgrow="ALWAYS">
+        <Text fx:id="billingText"  wrappingWidth="430.0" textAlignment="CENTER" />
+    </VBox>
+    <HBox alignment="CENTER" spacing="20" prefHeight="50.0" prefWidth="450.0" VBox.vgrow="ALWAYS">
+        <Button fx:id="printButton" onAction="#printAction" styleClass="print-icon-button" />
+        <Button fx:id="doneButton" onAction="#doneAction" styleClass="check-icon-button" />
+    </HBox>
+</VBox>
+<!--<VBox alignment="CENTER" spacing="10" stylesheets="@../styles/printButton.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="500.0" prefWidth="380.0" >
+    <VBox alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="450.0" VBox.vgrow="ALWAYS">
+        <Text fx:id="billingText"  wrappingWidth="430.0" textAlignment="CENTER" >
+        </Text>
+    </VBox>
+    <HBox alignment="CENTER" spacing="20" prefHeight="50.0" prefWidth="450.0" VBox.vgrow="ALWAYS">
+        <Button text="Print" onAction="#printAction"/>
+        <Button text="Done" onAction="#doneAction"/>
+    </HBox>
+</VBox>-->
+
+

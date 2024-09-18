@@ -1,0 +1,31 @@
+
+.top-bar, .header, .bottom-bar {
+    -fx-background-color:#00008B;
+}
+
+.header-label{
+    -fx-text-fill: #ADD8E6;
+    -fx-font-size: 50;
+}
+
+.close-button {
+    -fx-background-image: url("../images/close.png");
+    -fx-background-color: #ADD8E6;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75%;
+    -fx-background-position: center center;
+}
+
+.close-button:hover {
+    -fx-background-color: rgba(255, 255, 247, .3);
+}
+
+.vbox-body {
+    -fx-background-color: #77C3EC;
+}
+
+
+.invalid-phone {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
