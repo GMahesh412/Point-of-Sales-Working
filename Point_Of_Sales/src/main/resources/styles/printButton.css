@@ -1,0 +1,42 @@
+.text-area-with-background {
+        -fx-background-image: url("../images/tdsitelogo.png");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+        -fx-opacity: 3;
+        }
+.button-print {
+    -fx-font-family: "FontAwesome";
+    -fx-font-size: 14px;
+    -fx-text-fill: #74C0FC;
+    -fx-background-color: transparent;
+}
+
+/* Style for the FontAwesome print icon */
+.button-print .label {
+    -fx-text-fill: #000000;
+}
+.print-icon-button {
+    -fx-graphic: url("../images/print-solid-ezgif.com-svg-to-png-converter.png");
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: cover;
+     -fx-background-position: center;
+     -fx-border-color: #3bffec;
+     -fx-border-width: 0.5;
+}
+.check-icon-button {
+    -fx-graphic: url("../images/check-solid-ezgif.com-svg-to-png-converter.png");
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+     -fx-background-repeat: no-repeat;
+     -fx-background-size: cover;
+     -fx-background-position: center;
+     -fx-border-color: #3bffec;
+     -fx-border-width: 0.5;
+}
