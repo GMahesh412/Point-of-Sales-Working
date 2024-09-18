@@ -1,0 +1,11 @@
+Environment Variables: PATH_TO_FX=C:\Program Files\Java\javafx-sdk-21.0.1\bin  
+above is working 
+
+--module-path D:\supermArt\Java Libraries\javafx-sdk-17.0.9\bin --add-modules=javafx.controls,javafx.fxml
+
+
+
+Working Directory: D:\POS_jdbc\Point_Of_Sales  
+
+
+jdk 17 sdk 17 with libraries
